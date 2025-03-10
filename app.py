@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-# Set template and static folders relative to the project root
+# Set template and static folders relative to the project root.
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
 # In-memory storage simulation
